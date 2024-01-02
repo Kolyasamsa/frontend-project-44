@@ -1,22 +1,26 @@
 import readlineSync from 'readline-sync';
-import startRound from './even.js';
 
-const description = () => {
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-};
-
-const startGame = () => {
+const startGame = (description, round) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
-  console.log(userName);
   console.log(`Hello,${userName}!`);
-  description();
-  for (let i = 0; i < 3; i += 1) {
-    const isCorrect = startRound(userName);
-    if (!isCorrect) {
+  console.log(description);
+
+  const roundsCount = 3; // кол-во раундов
+  for (let i = 0; i < roundsCount; i += 1) {
+    const [question, result] = round();
+
+    console.log(`Question: ${question}?`);
+    const userAnswer = readlineSync.question('Your answer: ');
+    if (userAnswer.toLowerCase() !== String(result)) {
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${result}'.`);
+      console.log(`Let's try again, ${userName}!`);
       return;
     }
+
+    console.log('Correct!');
   }
+
   console.log(`Congratulations, ${userName}!`);
 };
 export default startGame;
