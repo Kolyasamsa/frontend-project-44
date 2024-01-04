@@ -15,3 +15,9 @@ to start the game type: `brain-even`
 to start the game type: `brain-calc`
 
 [![asciicast](https://asciinema.org/a/X2Jq4QCRqc34TE0pl9QiHgVim.svg)](https://asciinema.org/a/X2Jq4QCRqc34TE0pl9QiHgVim)
+
+## Game examples: brain-gcd
+
+to start the game type: `brain-gcd`
+
+[![asciicast](https://asciinema.org/a/SdeK5da3rhYYtSvO2xgj7o6Cm.svg)](https://asciinema.org/a/SdeK5da3rhYYtSvO2xgj7o6Cm)
