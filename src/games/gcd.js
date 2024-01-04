@@ -16,7 +16,7 @@ const gcd = (a, b) => {
 const startRound = () => {
   const num1 = getRandomNumber();
   const num2 = getRandomNumber();
-  const question = `Question: ${num1} ${num2}`;
+  const question = `${num1} ${num2}`;
   const correctAnswer = gcd(num1, num2);
   return [question, correctAnswer];
 };

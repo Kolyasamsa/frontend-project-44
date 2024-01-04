@@ -20,4 +20,4 @@ to start the game type: `brain-calc`
 
 to start the game type: `brain-gcd`
 
-[![asciicast](https://asciinema.org/a/SdeK5da3rhYYtSvO2xgj7o6Cm.svg)](https://asciinema.org/a/SdeK5da3rhYYtSvO2xgj7o6Cm)
+[![asciicast](https://asciinema.org/a/I3xC69BNDE63avnYne8QiNeuN.svg)](https://asciinema.org/a/I3xC69BNDE63avnYne8QiNeuN)
