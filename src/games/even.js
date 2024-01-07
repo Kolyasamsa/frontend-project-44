@@ -6,8 +6,8 @@ const isEven = (num) => num % 2 === 0;
 
 const startRound = () => {
   const question = getRandomNumber();
-  const result = isEven(question) ? 'yes' : 'no';
-  return [question, result];
+  const correctAnswer = isEven(question) ? 'yes' : 'no';
+  return [question, correctAnswer];
 };
 
 export { description, startRound };
