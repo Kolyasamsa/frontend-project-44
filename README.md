@@ -39,7 +39,7 @@ to start the game type: `brain-even`
 
 ### description:
 
-User is shown a random mathematical expression. User muneeds to calculate and enter the right answer
+User is shown a random mathematical expression. User needs to calculate and enter the right answer
 
 ### start:
 
