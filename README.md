@@ -21,3 +21,9 @@ to start the game type: `brain-calc`
 to start the game type: `brain-gcd`
 
 [![asciicast](https://asciinema.org/a/I3xC69BNDE63avnYne8QiNeuN.svg)](https://asciinema.org/a/I3xC69BNDE63avnYne8QiNeuN)
+
+## Game examples: brain-progression
+
+to start the game type: `brain-progression`
+
+[![asciicast](https://asciinema.org/a/vVaYhPaxUYBo0At2oIOrfYaoR.svg)](https://asciinema.org/a/vVaYhPaxUYBo0At2oIOrfYaoR)
