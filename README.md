@@ -27,3 +27,9 @@ to start the game type: `brain-gcd`
 to start the game type: `brain-progression`
 
 [![asciicast](https://asciinema.org/a/vVaYhPaxUYBo0At2oIOrfYaoR.svg)](https://asciinema.org/a/vVaYhPaxUYBo0At2oIOrfYaoR)
+
+## Game examples: brain-prime
+
+to start the game type: `brain-prime`
+
+[![asciicast](https://asciinema.org/a/DMUivu4qgZBwFqk7rpAxWnu1f.svg)](https://asciinema.org/a/DMUivu4qgZBwFqk7rpAxWnu1f)
