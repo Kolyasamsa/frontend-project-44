@@ -1,4 +1,5 @@
 import getRandomNumber from '../getRandomNum.js';
+import startGame from '../index.js';
 
 const description = 'What number is missing in the progression?';
 
@@ -23,4 +24,7 @@ const startRound = () => {
   const question = myProgression.join(' ');
   return [question, correctAnswer];
 };
-export { description, startRound };
+const startProgressionGame = () => {
+  startGame(description, startRound);
+};
+export default startProgressionGame;
